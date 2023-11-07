@@ -1,0 +1,83 @@
+[
+    {   "service_id": "01",
+        "Name"  :"Hair Cut",
+        "image" :"https://ibb.co/KFWqm6N",
+        "price" :"230",
+        "rating"    : "4.9",
+        "description" : "A haircut is a common salon service that involves trimming and shaping the hair to achieve a desired length and style.Haircuts are performed by professional hairstylists or barbers, and the specific style of the haircut can vary widely depending on the client's preferences. Here are some key points related to haircuts:A haircut typically begins with a consultation between the client and the stylist. During this consultation, the client can discuss their desired haircut style, length, and any specific concerns or preferences they may have.Before the actual cutting begins, the stylist may wet the hair to make it more manageable or leave it dry, depending on the desired style and cutting technique.Various cutting techniques can be used to achieve different styles. These techniques may include blunt cutting, point cutting, layering, texturizing, and more. The stylist will use scissors or shears for precise cutting."
+        
+    },
+    {   "service_id": "02",
+        "Name"  :"Regular Hair Cut",
+        "image" :"https://ibb.co/C6mM18X",
+        "price" :"250",
+        "rating"    : "4.7",
+        "description" : "A regular haircut, often referred to simply as a haircut, is a basic hair trimming service that involves maintaining the current length, shape, and style of the hair. It is a common service offered in salons and barbershops, and it's typically performed to keep the hair looking neat and healthy, rather than making significant style changes. Here are the key aspects of a regular haircut- In a regular haircut, the primary goal is to trim the hair to remove split ends, maintain the current length, and eliminate any unevenness. The stylist uses scissors or shears for this purpose.The haircut aims to keep the hair consistent with the client's existing style and preferences. It is not intended to create a dramatically different look. The stylist may begin with a brief consultation to understand the client's preferences and address any concerns."
+        
+    },
+    {   "service_id": "03",
+        "Name"  :"Kids Hair Cut",
+        "image" :"https://ibb.co/N3b7Rd9",
+        "price" :"270",
+        "rating"    : "4.8",
+        "description" : "A kids' haircut is a salon service or barber service specifically tailored to children, typically ranging in age from toddlers to teenagers. The goal of a kids' haircut is to provide a comfortable and enjoyable experience for the child while giving them a haircut that suits their age, style preferences, and hair type. Here are some key aspects of a kids' haircut- Many salons and barbershops that offer kids' haircuts create a child-friendly environment with colorful decor, fun chairs, and often have toys or entertainment to keep children occupied. Stylists who specialize in kids' haircuts are often experienced in working with children and have the patience and skills to make the haircut experience as pleasant as possible. The stylist may have a brief consultation with the child and their parent or guardian to understand the child's hairstyle preferences and any specific requests."
+        
+    },
+    {   "service_id": "04",
+        "Name"  :"Special Hair Cut",
+        "image" :"https://ibb.co/4MHfssm",
+        "price" :"430",
+        "rating"    : "4.5",
+        "description" : "A special or unique haircut typically refers to a haircut that goes beyond the standard or traditional styles and involves creative, unconventional, or personalized designs. These haircuts are often sought for special occasions, personal expression, or as a form of artistic or trendy self-expression. It's essential to consult with a skilled hairstylist or barber who specializes in these types of creative or unique haircuts. An undercut haircut involves shaving or closely trimming the hair on the sides and back of the head while leaving the top longer. This style can be customized with various patterns or designs shaved into the undercut area. They can provide guidance on the best approach to achieve the desired look, discuss maintenance, and offer recommendations based on your preferences and hair type. Additionally, they can help ensure that the haircut complements your overall style and appearance."
+        
+    },
+    {   "service_id": "05",
+        "Name"  :"Foam Shaving",
+        "image" :"https://ibb.co/5GyySTY",
+        "price" :"220",
+        "rating"    : "4.4",
+        "description" : "the process of using shaving foam or shaving cream to prepare the skin and hair for shaving. Shaving foam or cream creates a lubricating layer between the razor and the skin, allowing the razor to glide smoothly and reducing friction, which can help prevent irritation and nicks. Here's how foam shaving typically works- Start by wetting the area you intend to shave with warm water. Warm water helps soften the hair and open the pores, making it easier to shave. Dispense an appropriate amount of shaving foam or cream onto your hand or directly onto the area you're shaving. Spread it evenly to cover the hair and skin you want to shave. Shaving foam and shaving cream come in various formulations, including those designed for sensitive skin, with different scents, and made for specific purposes. It's a good idea to choose a product that suits your skin type and preferences. Additionally, using a good-quality razor is essential for a smooth and comfortable shaving experience."
+        
+    },
+    {   "service_id": "06",
+        "Name"  :"Beard Care",
+        "image" :"https://ibb.co/KyV7MkF",
+        "price" :"330",
+        "rating"    : "4.9",
+        "description" : "Beard care is essential for maintaining a healthy, well-groomed, and attractive beard. Whether you have a short beard or a long one, taking care of your facial hair involves several key steps and practices. Here are some important aspects of beard care: Regularly wash your beard with a gentle, sulfate-free beard shampoo. Avoid using regular hair shampoo, as it can strip your beard of natural oils. Be patient with your beard's growth. It may take time to achieve your desired length and style, and it's important not to rush the process. Remember that beard care is not one-size-fits-all, and it can vary depending on your hair type, beard length, and personal preferences. Experiment with different products and routines to find what works best for you and your beard."
+        
+    },
+    {   "service_id": "07",
+        "Name"  :"Hair Extension",
+        "image" :"https://ibb.co/ZSGS5R3",
+        "price" :"530",
+        "rating"    : "4.7",
+        "description" : "Hair extensions are a popular cosmetic hair enhancement technique used to add length, volume, and sometimes additional styling options to one's natural hair. They are available in various types, including natural hair extensions and synthetic extensions. Here's an overview of hair extensions. Investing in high-quality extensions, especially if you choose natural human hair, will result in a more natural look and longer-lasting extensions. When considering hair extensions, consult with a professional stylist who specializes in hair extensions to determine the best method and type of extensions for your needs and to ensure a proper application and maintenance plan. "
+        
+    },
+    {   "service_id": "08",
+        "Name"  :"Permanent Waving",
+        "image" :"https://ibb.co/vwXGqTH",
+        "price" :"649",
+        "rating"    : "4.5",
+        "description" : "Hair perming, also known as permanent waving, is a chemical hair treatment that changes the structure of the hair to create permanent curls or waves. This process involves the use of chemicals and heat to break and reform the hair's natural bonds, resulting in a new curl pattern. Here's an overview of hair perming. It's important to note that getting a perm is a long-term commitment, as the curl pattern is permanent until your hair grows out. If you wish to return to your natural straight or wavy hair, you will need to wait for the permed hair to grow out. Additionally, proper maintenance and care are crucial for keeping the permed hair healthy and well-defined. It's recommended to consult with a professional hairstylist who specializes in perming to discuss your desired outcome and ensure the process is tailored to your hair type and preferences."
+        
+    },
+    {   "service_id": "09",
+        "Name"  :"Wash Your Hair",
+        "image" :"https://ibb.co/rvsMWgN",
+        "price" :"249",
+        "rating"    : "4.5",
+        "description" : "Hair washing is an important part of maintaining clean and healthy hair. Proper hair washing not only removes dirt, excess oil, and product buildup but also promotes scalp health. Here are the steps to effectively wash your hair: apply a small amount of shampoo to your palms and then distribute it evenly through your hair. Focus on your scalp and the roots, as this is where oil and dirt accumulate. Gently massage your scalp with your fingertips using circular motions. Be careful not to use your nails, as this can damage the scalp. Work the shampoo down the length of your hair, but avoid excessive scrubbing, which can lead to tangles and breakage."
+        
+    },
+    {   "service_id": "10",
+        "Name"  :"Cool Hair Treatment",
+        "image" :"https://ibb.co/cxGQR3n",
+        "price" :"749",
+        "rating"    : "4.4",
+        "description" : "Hair treatments are specialized procedures and products used to improve the health, appearance, and texture of your hair. These treatments address a variety of concerns, from damage and dryness to frizz and hair loss. Here are some common types of hair treatments: Deep conditioning treatments use intense moisturizers and nutrients to hydrate and nourish the hair, making it softer, shinier, and more manageable. These treatments are especially beneficial for dry or damaged hair.  Hair masks are similar to deep conditioners but may contain additional ingredients like natural oils, proteins, and vitamins. They are designed to provide intensive hydration and repair to the hair. Protein treatments help strengthen the hair by replenishing lost protein. These treatments are particularly useful for damaged or chemically processed hair, as they can help restore strength and reduce breakage. It's essential to choose hair treatments that match your hair type, concerns, and goals. Consult with a professional stylist or trichologist for personalized recommendations and to ensure that you're using the right products and procedures for your specific needs. Additionally, maintaining a healthy hair care routine, including regular trims and the use of suitable hair care products, is crucial for overall hair health."
+        
+    }
+
+]
