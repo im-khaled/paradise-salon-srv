@@ -1,8 +1,9 @@
 const express = require("express");
 const cors = require("cors");
+const jwt = require("jsonwebtoken")
 const app = express();
 require('dotenv').config();
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const port = process.env.PORT || 8080;
 
 // middle wares
@@ -25,12 +26,36 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     const serviceCollection = client.db('paradiseSalon').collection('services');
+    const reviewCollection = client.db('paradiseSalon').collection('reviews');
 
     app.get('/services', async (req, res) => {
         const query = {}
         const cursor = serviceCollection.find(query);
         const services = await cursor.toArray();
         res.send(services);
+    })
+    app.get('/serviceDetails/:id', async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(`${id}`) };
+      const service = await serviceCollection.findOne(query);
+      res.send(service);
+  })
+    app.post('/addService', async(req, res) => {
+
+      const service_id =await serviceCollection.countDocuments();
+      const newService = req.body;
+      newService.service_id = `${service_id+1}`;
+
+      const result = await serviceCollection.insertOne(newService);
+      res.send(result);
+    })
+    app.post('/reviews', async(req, res) => {
+        const user = req.body.email;
+        const token = jwt.sign(user, process.env.JWT_TOCKEN) 
+        const review = req.body;
+        const result = await reviewCollection.insertOne(review);
+        res.send({result,token });
+
     })
 
   }
