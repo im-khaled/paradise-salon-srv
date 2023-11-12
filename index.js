@@ -50,10 +50,20 @@ async function run() {
     })
     app.get('/serviceDetails/:id', async (req, res) => {
       const id = req.params.id;
-      const query = { _id: new ObjectId(`${id}`) };
-      const service = await serviceCollection.findOne(query);
-      res.send(service);
+      const query1 = { _id: new ObjectId(`${id}`) };
+      const query2 = {serviceId:id}
+      const service = await serviceCollection.findOne(query1);
+      const cursor = reviewCollection.find(query2);
+      const reviews = await cursor.toArray();
+      res.send({service, reviews });
+
   })
+    app.delete('/remove/:id', async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(`${id}`) };
+      const result = await reviewCollection.deleteOne(query);
+      res.send(result);
+    })
     app.get('/userReview',verifyJWT, async(req, res) => {
       const email = req.decoded
       
