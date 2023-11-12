@@ -22,6 +22,20 @@ const client = new MongoClient(uri, {
     deprecationErrors: true,
   }
 });
+function verifyJWT(req, res, next){
+  const authHeader = req.headers.authentication;
+  if(!authHeader){
+    res.status(401).send({message:'unauthorised access' })
+  }
+  const token = authHeader.split(' ')[1];
+  jwt.verify(token, process.env.JWT_TOCKEN, function(err, decoded){
+    if(err){
+      res.status(403).send({message:'unauthorised access' })
+    }
+    req.decoded = decoded;
+    next();
+  });
+}
 
 async function run() {
   try {
@@ -40,6 +54,23 @@ async function run() {
       const service = await serviceCollection.findOne(query);
       res.send(service);
   })
+    app.get('/userReview',verifyJWT, async(req, res) => {
+      const email = req.decoded
+      
+      let query = {}
+      if(email !== email){
+        res.status(403).send({message: 'Forbidden Access'})
+      }
+      if(req.query.email){
+        query = {
+          email: req.query.email
+        }
+      }
+    
+      const cursor = reviewCollection.find(query);
+      const reviews = await cursor.toArray();
+      res.send(reviews);
+    })
     app.post('/addService', async(req, res) => {
 
       const service_id =await serviceCollection.countDocuments();
